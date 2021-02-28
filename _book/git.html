@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>ESC設定 · GitBook</title>
+        <title>Git · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -57,10 +57,8 @@
     <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="git.html" />
     
-    
-    <link rel="prev" href="./" />
+    <link rel="prev" href="esc.html" />
     
 
     </head>
@@ -102,7 +100,7 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.2" data-path="esc.html">
+        <li class="chapter " data-level="1.2" data-path="esc.html">
             
                 <a href="esc.html">
             
@@ -115,7 +113,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.3" data-path="git.html">
+        <li class="chapter active" data-level="1.3" data-path="git.html">
             
                 <a href="git.html">
             
@@ -158,7 +156,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="." >ESC設定</a>
+        <a href="." >Git</a>
     </h1>
 </div>
 
@@ -173,21 +171,13 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="esc&#x8A2D;&#x5B9A;">ESC&#x8A2D;&#x5B9A;</h1>
-<p>ESC&#xFF08;Electric Speed Controller&#xFF09;&#x306F;&#x30D6;&#x30E9;&#x30B7;&#x30EC;&#x30B9;&#x30E2;&#x30FC;&#x30BF;&#x306E;&#x56DE;&#x8EE2;&#x6570;&#x3092;&#x5236;&#x5FA1;&#x3059;&#x308B;&#x96FB;&#x5B50;&#x30C7;&#x30D0;&#x30A4;&#x30B9;&#x3067;&#x3042;&#x308B;&#xFF0E;ESC&#x306B;&#x306F;<a href="https://m.racerstar.com/racerstar-rs30a-v2-30a-blheli_s-esc-opto-2-4s-support-oneshot42-multishot-16_5-dshot600-p-9.html" target="_blank">Racerstar RS30A V2</a>&#x3092;&#x4F7F;&#x7528;&#x3059;&#x308B;&#xFF0E;</p>
-<p>&#x8A2D;&#x5B9A;&#x30BD;&#x30D5;&#x30C8;&#xFF1A;<a href="https://www.dropbox.com/sh/gf9d1r52t4v7ol4/AADr8AnqXNqYemk4Or9OGfOWa?dl=0" target="_blank">BLHeliSuite</a></p>
-<p>Make Interfaces</p>
-<ul>
-<li>Arduino Board: Nano w/ ATmega328(UNO&#x3092;&#x4F7F;&#x7528;)</li>
-<li>Baud: 115200</li>
-<li>Arduino BLHeli Bootloader</li>
-</ul>
-<p>Pinouts
-Arduino UNO    ESC
-   &#x3000;GND-------GND<br>     D3--------Signal</p>
-<p>Select ATMEL/ SILABS Interface
--&gt; C SILABS Bootloader(USB/Com)</p>
-<p>Select Port -&gt; Connect -&gt; Read Setup</p>
+                                <h1 id="git">Git</h1>
+<pre><code>gitbook build
+git add .
+git commit -m &quot;first commit&quot;
+git branch -M main
+git push -u origin main
+</code></pre><p><code>rgb(255,0,0)</code></p>
 
                                 
                                 </section>
@@ -215,14 +205,10 @@ Arduino UNO    ESC
 
             
                 
-                <a href="./" class="navigation navigation-prev " aria-label="Previous page: はじめに">
+                <a href="esc.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: ESC設定">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
-                
-                <a href="git.html" class="navigation navigation-next " aria-label="Next page: Git">
-                    <i class="fa fa-angle-right"></i>
-                </a>
                 
             
         
@@ -231,7 +217,7 @@ Arduino UNO    ESC
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"ESC設定","level":"1.2","depth":1,"next":{"title":"Git","level":"1.3","depth":1,"path":"git.md","ref":"git.md","articles":[]},"previous":{"title":"はじめに","level":"1.1","depth":1,"path":"README.md","ref":"README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"esc.md","mtime":"2021-02-27T12:07:27.504Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-02-28T09:13:55.412Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Git","level":"1.3","depth":1,"previous":{"title":"ESC設定","level":"1.2","depth":1,"path":"esc.md","ref":"esc.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"git.md","mtime":"2021-02-28T09:13:28.048Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-02-28T09:13:55.412Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>
